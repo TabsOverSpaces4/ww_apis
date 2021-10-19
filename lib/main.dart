@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ww_apis/user_model.dart';
+import 'package:http/http.dart' as http;
 
 void main() {
   runApp(MyApp());
@@ -28,8 +29,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 Future<UserModel?> createUser(String name, String jobTitle) async {
-  final String apiUrl = "https://reqres.in/api/users";
-
+  final Uri apiUrl = Uri.parse("https://reqres.in/api/users");
   final response =
       await http.post(apiUrl, body: {"name": name, "job": jobTitle});
 
