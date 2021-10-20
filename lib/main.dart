@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 32,),
 
             _user == null ? Container() :
-            Text("The user ${_user.name}, ${_user.id} is successfully created at time ${_user.createdAt.toIso8601String()}"),
+            Text("The user ${_user.name}, ${_user.id} is successfully created at time ${_user.createdAt.toIso8601String()}")
           ],
         ),
       ),
