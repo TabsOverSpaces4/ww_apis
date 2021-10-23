@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // ignore: unnecessary_null_comparison
             _user == null ? Container() :
-            Text("The user ${_user.name}, ${_user.id} is successfully created at time ${_user.createdAt.toIso8601String()}")
+            Text("The user ${_user.name}, ${_user.id} is successfully created at this time ${_user.createdAt.toIso8601String()}")
           ],
         ),
       ),
