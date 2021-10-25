@@ -16,3 +16,24 @@ class _LifeState extends State<Life> {
     );
   }
 }
+class Thread extends StatefulWidget {
+  const Thread({ Key? key }) : super(key: key);
+
+  @override
+  _ThreadState createState() => _ThreadState();
+}
+
+class _ThreadState extends State<Thread> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        children: [
+          Container(),
+          Container(),
+          Container(),
+        ],
+      ),
+    );
+  }
+}
