@@ -11,7 +11,7 @@ class _LifeState extends State<Life> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      backgroundColor: Colors.amber,
       
     );
   }
