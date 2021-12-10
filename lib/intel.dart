@@ -6,7 +6,7 @@ class Life extends StatefulWidget {
   @override
   _LifeState createState() => _LifeState();
 }
-
+//change
 class _LifeState extends State<Life> {
   @override
   Widget build(BuildContext context) {
